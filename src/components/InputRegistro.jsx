@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import { useId } from "react";
 
-const InputRegistro = ({ label, name, type, icon }) => {
+const InputRegistro = ({ label, name, type, icon, value, onChange }) => {
   const inputId = useId();
 
   return (
@@ -9,7 +9,15 @@ const InputRegistro = ({ label, name, type, icon }) => {
       <span className="icon">
         <Icon icon={icon} />
       </span>
-      <input type={type} name={name} id={inputId} />
+      <input
+        type={type}
+        name={name}
+        id={inputId}
+        value={value}
+        onChange={onChange}
+        required
+        autoCapitalize="off"
+      />
       <label htmlFor={inputId}>{label}</label>
     </div>
   );

@@ -4,7 +4,7 @@ import { Registro } from "./components/Registro";
 function App() {
   return (
     <>
-      <main>
+      <main className="wrapper">
         <div className="form-cont">
           <Registro></Registro>
         </div>
