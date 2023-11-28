@@ -1,11 +1,11 @@
 :root {
     --primary-color: #151a36;
-    --icon-color: #14072c;
+    --icon-color: #080313;
     --text-label-color: #a1adbd;
     --text-input-color: #f0f8ff;
     --quaternary-color: #ffffff9f;
     --quinary-color: #0000009f;
-    --senary-color: #b0d4f733;
+    --senary-color: #b0d4f745;
 }
 
 .wrapper {
